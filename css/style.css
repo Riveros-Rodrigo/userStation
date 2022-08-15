@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+body{
+    background-color: #000000;
+}
+
+/* header */
+
+header{
+    width: 90%;
+    margin: auto;
+}
+
+header .contenedor{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    align-items: center;
+}
+header .logo{
+    cursor: pointer;
+}
+header .idiomas{
+    display: flex;
+}
+header .idiomas p{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+header .idiomas .idiomaEsp{
+    color: rgba(200, 78, 137, 1);
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+header .idiomas .idiomaEng{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+header .meInteresaHambur{
+    cursor: pointer;
+}
+
+/* home */
+
+main{
+    width: 90%;
+    margin: auto;
+}
+main .siguienteEstacion{
+    margin: 180px 0;
+}
+main .siguienteEstacion h1 span{
+    color: rgba(200, 78, 137, 1);
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+}
+main .siguienteEstacion h1{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+}
+main .siguienteEstacion a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    border: 3px solid rgba(200, 78, 137, 1);
+    padding: 5px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+}
+
+/* flecha del home */
+
+main .flecha {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+    cursor: pointer;
+}
+
+/* trabajo HIGH */
+
+main .trabajoHigh{
+    margin-top: 55%;
+}
+main .trabajoHigh .padreLogoHigh{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+main .trabajoHigh .textoHigh{
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+}
+main .trabajoHigh .hashtagsHigh{
+    color: rgba(185, 185, 185, 1);
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 10px 0;
+}
+main .padreLinkHigh{
+    display: flex;
+    justify-content: center;
+}
+main .trabajoHigh .padreLinkHigh a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+    border: 3px solid rgba(200, 78, 137, 1);
+    padding: 3px 10px;
+    margin-top: 7%;
+    margin-bottom: 15%;
+}
+hr{
+    border-color:rgba(48, 48, 48, 1);
+    width: 100%;
+}
+
+/* trabajo MYFINCYCLE*/
+
+main .trabajoCycle{
+    margin-top: 10%;
+}
+main .trabajoCycle .padreLogoCycle{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+main .trabajoCycle .textoCycle{
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+}
+main .trabajoCycle .hashtagsCycle{
+    color: rgba(185, 185, 185, 1);
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 10px 0;
+}
+main .padreLinkCycle{
+    display: flex;
+    justify-content: center;
+}
+main .padreLinkCycle a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+    border: 3px solid rgba(200, 78, 137, 1);
+    padding: 3px 10px;
+    margin-top: 7%;
+    margin-bottom: 40%;
+}
