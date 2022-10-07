@@ -389,9 +389,23 @@ section .paquetes .graphic{
 section .paquetes .graphic:hover{
     border-bottom: 1px solid #FFFFFF;
 }
+section .paquetes .development{
+    color: rgba(86, 219, 195, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    padding: 5px;
+}
+section .paquetes .development:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
 
 /* PAQUETES */
 
+/* diseño titulos de packages */
 main h2{
     color: rgba(200, 78, 137, 1);
     font-family: 'Poppins';
@@ -403,13 +417,13 @@ main h2{
     margin: 10px 0px;
     padding: 0px 5px;
 }
-
+/* diseño packages */
 main .paquete{
     border: 1px solid rgba(200, 78, 137, 1);
     background-color: rgba(24, 24, 24, 1);
     margin: 20px 0px 5px 0px;
 }
-
+/* diseño de texto de paquetes */
 main .paquete .paqueteTexto{
     color: #FFFFFF;
     margin: 5px 0px 15px 0px;
@@ -424,7 +438,7 @@ main .paquete .paqueteTexto{
 hr{
     margin: 20px 0px;
 }
-
+/* diseño interesa de packages */
 main .paquete .interesa{
     color: #000000;
     background-color: rgba(200, 78, 137, 1);
@@ -437,4 +451,108 @@ main .paquete .interesa{
     align-items: center;
     justify-content: center;
     height: 18px
+}
+
+/* diseño web desing */
+main .web{
+    border: 1px solid rgba(88, 78, 200, 1);
+    background-color: rgba(24, 24, 24, 1);
+    margin: 20px 0px 5px 0px;
+}
+
+/* diseño interesa de web desing */
+main .web .interesa{
+    color: #000000;
+    background-color: rgba(88, 78, 200, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px
+}
+/* diseño titulos de web desing */
+main .web h2{
+    color: rgba(88, 78, 200, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 10px 0px;
+    padding: 0px 5px;
+}
+
+/* GRAPHIC DESIGN */
+
+/* diseño graphic */
+main .graphic{
+    border: 1px solid rgba(86, 165, 219, 1);
+    background-color: rgba(24, 24, 24, 1);
+    margin: 20px 0px 5px 0px;
+}
+/* diseño interesa de graphic */
+main .graphic .interesa{
+    color: #000000;
+    background-color: rgba(86, 165, 219, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px
+}
+/* diseño titulos de graphic*/
+main .graphic h2{
+    color: rgba(86, 165, 219, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 10px 0px;
+    padding: 0px 5px;
+}
+
+/* DEVELOPMENT */
+
+/* diseño development */
+main .development{
+    border: 1px solid rgba(86, 219, 195, 1);
+    background-color: rgba(24, 24, 24, 1);
+    margin: 20px 0px 5px 0px;
+}
+/* diseño interesa de development */
+main .development .interesa{
+    color: #000000;
+    background-color: rgba(86, 219, 195, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px
+}
+/* diseño titulos de graphic*/
+main .development h2{
+    color: rgba(86, 219, 195, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 10px 0px;
+    padding: 0px 5px;
 }
