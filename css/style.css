@@ -338,7 +338,7 @@ section h1{
     color: rgba(200, 78, 137, 1);
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 32px;
     line-height: 115%;
     letter-spacing: -0.03em;
@@ -555,4 +555,84 @@ main .development h2{
     letter-spacing: -0.05em;
     margin: 10px 0px;
     padding: 0px 5px;
+}
+
+/* WORK */
+
+main .trabajos h1{
+    color: rgba(200, 78, 137, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 115%;
+    letter-spacing: -0.03em;
+}
+main .trabajos h1 span{
+    color: #FFF;
+}
+main .trabajos .imgHigh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 130px;
+    background: linear-gradient(180deg, #000000 0%, #1F1F1F 100%);
+}
+main .trabajos .imgHigh img{
+    width: 109px;
+    height: 59px;
+}
+main .trabajos h2{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+}
+main .trabajos .textoTrabajos{
+    display: flex;
+    justify-content: space-between;
+}
+main .trabajos p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    color: #B9B9B9;
+}
+main .trabajos .textoStudy{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    border: 1px solid rgba(200, 78, 137, 1);
+    width: 130px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .trabajos .textoTrabajos p span{
+    color: rgba(200, 78, 137, 1);
+}
+/* imagen myfincycle */
+main .trabajos .imgCycle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 130px;
+    background: linear-gradient(180deg, #071E3D 0%, #0A2750 100%);
+    margin: 30px 0px 5px 0px;
+}
+main .espaciadoHablemos{
+    margin: 40% 0%;
 }
