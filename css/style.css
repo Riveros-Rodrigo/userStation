@@ -66,6 +66,57 @@ header .padreDerecha .meInteresa{
 header .padreDerecha .hamburguesa{
     cursor: pointer;
 }
+#myButton{
+    background: none;
+    border: none;
+}
+#popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#popup .popup-content {
+    background: linear-gradient(180deg, #C84E89 0%, #F15F79 100%);
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+#popup .popup-content ul{
+    list-style: none;
+    display: block;
+    position: relative;
+    top: 150px;
+}
+#popup .popup-content ul li{
+    padding: 20px;
+}
+#popup .popup-content ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+#popup .popup-content .close {
+    position: absolute;
+    top: 43px;
+    right: 16px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
 
 /* home */
 
@@ -359,6 +410,7 @@ section .paquetes .packages{
     line-height: 100%;
     letter-spacing: -0.03em;
     padding: 5px;
+    text-decoration: none;
 }
 section .paquetes .packages:hover{
     border-bottom: 1px solid #FFFFFF;
@@ -372,6 +424,7 @@ section .paquetes .web{
     line-height: 100%;
     letter-spacing: -0.03em;
     padding: 5px;
+    text-decoration: none;
 }
 section .paquetes .web:hover{
     border-bottom: 1px solid #FFFFFF;
@@ -385,6 +438,7 @@ section .paquetes .graphic{
     line-height: 100%;
     letter-spacing: -0.03em;
     padding: 5px;
+    text-decoration: none;
 }
 section .paquetes .graphic:hover{
     border-bottom: 1px solid #FFFFFF;
@@ -398,6 +452,7 @@ section .paquetes .development{
     line-height: 100%;
     letter-spacing: -0.03em;
     padding: 5px;
+    text-decoration: none;
 }
 section .paquetes .development:hover{
     border-bottom: 1px solid #FFFFFF;
@@ -476,7 +531,7 @@ main .web .interesa{
 }
 /* diseño titulos de web desing */
 main .web h2{
-    color: rgba(88, 78, 200, 1);
+    color: #FFFFFF;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -511,7 +566,7 @@ main .graphic .interesa{
 }
 /* diseño titulos de graphic*/
 main .graphic h2{
-    color: rgba(86, 165, 219, 1);
+    color: #FFFFFF;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -546,7 +601,7 @@ main .development .interesa{
 }
 /* diseño titulos de graphic*/
 main .development h2{
-    color: rgba(86, 219, 195, 1);
+    color: #FFFFFF;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -558,7 +613,14 @@ main .development h2{
 }
 
 /* WORK */
-
+main .trabajos .seccionHigh{
+    display: flex;
+    justify-content: center;
+}
+main .trabajos .seccionCycle{
+    display: flex;
+    justify-content: center;
+}
 main .trabajos h1{
     color: rgba(200, 78, 137, 1);
     font-family: 'Poppins';
@@ -595,6 +657,7 @@ main .trabajos h2{
 main .trabajos .textoTrabajos{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 main .trabajos p{
     font-family: 'Poppins';
