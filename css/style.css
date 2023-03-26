@@ -699,3 +699,94 @@ main .trabajos .imgCycle{
 main .espaciadoHablemos{
     margin: 40% 0%;
 }
+/* CONTACTO */
+section .tituloContact h1{
+    color: linear-gradient(90deg, #C84E89 0%, #F15F79 100%);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 5px 0px;
+}
+section .tituloContact p{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 10px 0px;
+}
+section .tituloContact p span{
+    color: #C84E89;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+}
+section .contenedor{
+    width: 90%;
+    margin: auto;
+}
+section .contenedor h2{
+    color: #C84E89;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    text-align: center;
+    margin: 50px 0px;
+}
+section .contenedor .formulario h3{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 15px 0px 5px 0px;
+}
+section .contenedor .formulario input[type="text"], 
+section .contenedor .formulario input[type="email"]{
+    width: 280px;
+    height: 25px;
+    background: #2D2D2D;
+    border: none;
+}
+section .contenedor .formulario textarea {
+    width: 280px;
+    height: 96px;
+    background: #2D2D2D;
+    border: none;
+}
+section .contenedor .formulario .send{
+    display: flex;
+    justify-content: center;
+}
+section .contenedor .formulario .send .boton{
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 2px solid #C84E89;
+    cursor: pointer;
+    margin: 40px 0px;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    width: 280px;
+    height: 25px;
+}
+
+
+
