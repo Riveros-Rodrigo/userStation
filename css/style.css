@@ -730,10 +730,10 @@ section .tituloContact p span{
     letter-spacing: -0.05em;
 }
 section .contenedor{
-    width: 90%;
-    margin: auto;
+display: flex;
+justify-content: center;
 }
-section .contenedor h2{
+section h2{
     color: #C84E89;
     font-family: 'Poppins';
     font-style: normal;
@@ -787,6 +787,108 @@ section .contenedor .formulario .send .boton{
     width: 280px;
     height: 25px;
 }
-
-
-
+/* ABOUT */
+section .tituloAbout h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    color: linear-gradient(90deg, #C84E89 0%, #F15F79 100%);
+    margin: 0px 0px 15px 0px;
+}
+section .contenedorImg{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0px 0px 30px 0px;
+}
+section .textoAbout p{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 0px 0px 15px 0px;
+}
+section .textoAbout p span{
+    color: #C84E89;
+}
+/* banner */
+section .contenedorBanner img{
+    margin: 50px 0px;
+    width: 100%;
+}
+section .contenedorBanner p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+    top: 612px;
+}
+section .contenedorBanner p span{
+    color: #C84E89;
+}
+/* TEAM */
+section .teamTitulo{
+    text-align: start;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    margin: 0px 0px 5px 0px;
+}
+section p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 115%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin: 0px 0px 15px 0px;
+}
+section p span{
+    color: #C84E89;
+}
+section .team{
+    display: flex;
+    justify-content: space-around;
+}
+section .team .cargo{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 8px;
+    color: #FFFFFF;
+}
+section .team .nombre{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9284px;
+    line-height: 95%;
+    text-align: center;
+    color: #FFFFFF;
+}
+section .team .icono{
+    display: flex;
+    justify-content: center;
+}
+section .team .icono i{
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 0px 5px;
+}
